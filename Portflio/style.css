@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities{
+  .navigationBar{
+    @apply fixed bg-white shadow-md transition ease-in-out border-b-0 duration-300;
+  }
+}
